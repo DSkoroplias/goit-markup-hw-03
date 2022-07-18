@@ -79,8 +79,8 @@ address {
     flex-wrap: wrap;
     gap: 30px;
 }
-/* <!--  Header content--> */
 
+/* <!--  Header content--> */
 .page-header {
     border-bottom: 1px solid #ececec;
 }
@@ -157,11 +157,11 @@ address {
 .current {
     color: var(--accent-color);
 }
+/* <!--  /Header content--> */
 
 /* <!-- Main content--> */
 
 /* <!-- Hero content --> */
-
 .hero {
     padding-bottom: 200px;
     padding-top: 200px;
@@ -196,9 +196,9 @@ address {
     background: #188ce8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+/* <!-- /Hero content --> */
 
 /* <!-- Feature content  --> */
-
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -231,8 +231,9 @@ address {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-/* <!-- Work content  --> */
+//* <!-- Feature content  --> */
 
+/* <!-- Work content  --> */
 .title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -247,13 +248,9 @@ address {
 .portfolio-list {
     flex-basis: calc((100% - 60px) / 3);
 }
-
-/* .work-item:not(:nth-child(3n)) {
-    margin-right: 30px;
-} */
+/* <!-- /Work content  --> */
 
 /* <!-- Team content --> */
-
 .team-section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -265,10 +262,6 @@ address {
     box-shadow: var(--card-shadow);
     border-radius: 0px 0px 4px 4px;
 }
-
-/* .card-item:not(:nth-child(3n)) {
-    margin-right: 30px;
-} */
 
 .team-card-wrapper {
     padding-top: 30px;
@@ -292,9 +285,9 @@ address {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+/* <!-- /Team content --> */
 
 /* <!-- Footer content --> */
-
 footer {
     background: #2f303a;
 }
@@ -328,9 +321,9 @@ footer {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+/* <!-- /Footer content --> */
 
 /* <!-- Portfolio content --> */
-
 .section-portfolio {
     padding: 90px 0;
 }
@@ -391,3 +384,4 @@ footer {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+/* <!-- /Portfolio content --> */
