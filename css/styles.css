@@ -209,9 +209,6 @@ address {
     padding-top: 94px;
 }
 
-.feature-list {
-}
-
 .feature-item {
     flex-basis: calc((100% - 90px) / 4);
 }
@@ -231,10 +228,9 @@ address {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-//* <!-- Feature content  --> */
+/* <!-- Feature content  --> */
 
 /* <!-- Work content  --> */
-
 .title {
     margin-bottom: 50px;
     font-weight: 700;
