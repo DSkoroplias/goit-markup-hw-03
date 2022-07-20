@@ -143,6 +143,7 @@ address {
 }
 
 .contacts-link {
+    padding: 32px 0;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -233,6 +234,7 @@ address {
 //* <!-- Feature content  --> */
 
 /* <!-- Work content  --> */
+
 .title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -257,6 +259,7 @@ address {
 }
 
 .card-item {
+    background: var(--auxiliary-color);
     flex-basis: calc((100% - 90px) / 4);
     box-shadow: var(--card-shadow);
     border-radius: 0px 0px 4px 4px;
@@ -287,13 +290,10 @@ address {
 /* <!-- /Team content --> */
 
 /* <!-- Footer content --> */
-footer {
-    background: #2f303a;
-}
-
 .footer {
     padding-bottom: 60px;
     padding-top: 60px;
+    background: #2f303a;
 }
 
 .logo-studio-footer {
